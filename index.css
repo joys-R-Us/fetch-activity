@@ -1,0 +1,103 @@
+body {
+    margin: 0%;
+    background: url("img/bg\ final\ na.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#container { 
+    width: 100%;
+    background-color: #000000ec;
+    padding: 2% 0 2% 0;
+}
+form {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    max-width: 100%;
+    margin: auto;
+    height: 25px;
+}
+form input {
+    flex: 1;
+    height: 100%;
+    text-align: left;
+    background-color: #ffffff93;
+    color: #000000fa;
+    font-size: 15px;
+    padding: 0 3%;
+    border-radius: 20px 0 0 20px;
+    border: none;
+}
+form input:hover {
+    border-color: #5cadf0;
+    box-shadow: 0 0 15px #9ecaed, 0 0 20px #b5d2ea;
+    width: 75%;
+    transition: 500ms ease-out;
+    color: #000000;
+}
+form input:focus {
+    width: 75%;
+    border-color: #5cadf0;
+    box-shadow: 0 0 15px #9ecaed, 0 0 20px #b5d2ea;
+    transition: 500ms ease-out;
+    outline: none;
+}
+form button {
+    font-family: 'Source Code Pro', monospace;
+    height: 100%;
+    background-color: #ffffff95;
+    border: none;
+    padding: 0 10% 0 10%;
+    font-size: 15px;
+    border-radius: 0 20px 20px 0;
+    text-align: center;
+    transition: 500ms ease-out;
+}
+form button:hover {
+    background-color: #6f717421;
+    cursor: pointer;
+    color: #b6deff;
+}
+::placeholder {
+    color: #000000;
+    font-size: 15px;
+    text-align: left;
+}
+#center-cont { /*container, ari mogawas ang manga*/
+    background-color: #0000008e;
+    height: auto;
+    margin: 1% 2% 2% 2%;
+    padding: 1% 2% 1% 2%;
+}
+
+.ctn-con{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-ctn img{
+    width: 450px;
+    margin-left: 0;
+    height: 350px;
+}
+
+.text-ctn{
+    margin-left: 20px;
+    width: 50%;
+    color: #ffffff;
+    line-height: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 { /*title*/
+    color: #ffffff;
+    font-family: 'Kalnia', serif;
+    width: 100%;
+    padding: 1%;
+}
+img {
+    width: 20%;
+    object-fit: contain;
+    justify-content: center;
+}
